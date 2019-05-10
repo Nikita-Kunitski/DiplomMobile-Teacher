@@ -1,5 +1,6 @@
 package com.diplom.uedec.teacherapplication.data.entity;
 
+import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.Ignore;
@@ -33,7 +34,7 @@ public class Auditorium implements Parcelable {
     private int AuditoriumCapacity;
     @SerializedName("AuditoriumTypeId")
     @Expose
-    //@ColumnInfo(name = "auditoriumtype_id")
+    @ColumnInfo(name = "auditoriumtype_id")
     private int AuditoriumTypeId;
 
     public Auditorium() {

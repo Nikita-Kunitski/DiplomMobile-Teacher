@@ -5,6 +5,8 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.os.AsyncTask;
 
+import com.diplom.uedec.teacherapplication.data.entity.ApplicationUser;
+
 import okhttp3.Headers;
 
 /**
